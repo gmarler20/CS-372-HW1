@@ -40,6 +40,7 @@ public class Date {
 }
 	
 	void setDay (int d) {
+		//PT -- need to be smart on this day value -3
 		day = d;
 	}
 	
@@ -48,6 +49,7 @@ public class Date {
 	}
 	
 	void setMonth(int m) {
+		//PT -- again, be smart
 		month = m;
 	}
 	
