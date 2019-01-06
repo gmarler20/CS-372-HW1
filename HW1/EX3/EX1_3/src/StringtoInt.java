@@ -13,6 +13,7 @@ public class StringtoInt {
 		boolean check = true;					// Assistance from Iain Black on this portion. I could not figure out how to get the loop to exit if the user entered a number followed by text, and this fixed it. 
 		
 		for(int i = 0; i < var1.length(); i++) {
+			//PT -- if (var1.charAt(i) >= '0' && var1.charAt(i) <= '9')
 			if (var1.charAt(i) >= 48 && var1.charAt(i) <= 57)		// If the character is equal to equivalent to 0-9 in ascii
 			{
 				convert = convert + var1.charAt(i) - 48;			// Add the character at the specific position from var1 to convert, but subtract 48 so it is converted from ASCII
