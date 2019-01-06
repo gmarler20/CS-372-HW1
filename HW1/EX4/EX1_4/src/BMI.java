@@ -12,6 +12,8 @@ public class BMI {
 		
 		System.out.println("Enter your weight in pounds");
 		pounds = scnr.nextDouble();
+		//PT -- name this number
+		//  final double KG_PER_POUND = 0.453592;
 		kilograms = pounds * .453592;
 		
 		System.out.println("Enter your height in inches");
