@@ -61,4 +61,6 @@ public class Employee {
 	public String GetBoss() {
 		return boss;
 	}
+	
+	//PT -- consider overriding toString()
 }
